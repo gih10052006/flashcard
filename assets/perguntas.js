@@ -1,14 +1,3 @@
-<link rel="stylesheet" href="assets/style.css">
-
-body {
-    background: url(/tmp/guest-jmc0e1/Área de Trabalho/flashcard/flashcard-imagem );
-    font-family: Bai Jamjuree;
-}
-:root {
-    --text-color: #DBE4EF;
-    --card-front-color: #144480;
-    --card-back-color: #00F4BF;
-}
 .cartao:hover .cartao__conteudo {
     transform: rotateY(180deg);
 }
@@ -31,44 +20,65 @@ body {
     backface-visibility: hidden;
 }
 .cartao__conteudo__pergunta,
-.cartao__conteudo__resposta 
-{
+.cartao__conteudo__resposta {
     backface-visibility: hidden;
 }
-.cartao__conteudo__resposta 
-{
+.cartao__conteudo__resposta {
     transform: rotateY(180deg);
 }
 .cartao__conteudo__pergunta,
-.cartao__conteudo__resposta 
-{
+.cartao__conteudo__resposta {
     backface-visibility: hidden;
     position: absolute;
     height: 100%;
     width: 100%;
 }
-.cartao__conteudo p 
-{
+.cartao__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
 }
-#container 
-{
-    display: flex;
-     flex-wrap: wrap;
-}
-#container 
-{
-    display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     padding: 4rem;
-}#container 
-{
-    display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     padding: 4rem;
-     gap: 3rem;
-}
+criaCartao(
+    categoria,
+    pergunta,
+    resposta
+)
+criaCartao(
+    categoria,
+    pergunta,
+    resposta
+)
+
+criaCartao(
+    categoria,
+    pergunta,
+    resposta
+)
+
+criaCartao(
+    categoria,
+    pergunta,
+    resposta
+)
+criaCartao(
+    'Programação',
+    'O que é Python?',
+    'O Python é uma linguagem de programação'
+)
+
+criaCartao(
+    'Geografia',
+    'Qual a capital da França?',
+    'A capital da França é Paris'
+)
+
+criaCartao(
+    'Programação',
+    'O que é uma função?',
+    'Uma função é um bloco de código que executa alguma tarefa'
+)
+criaCartao(
+    'Lingua inglesa',
+    'Como se diz OI em inglês?',
+    'Oi em ingles é HI (RAI)'
+) 
