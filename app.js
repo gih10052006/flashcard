@@ -39,4 +39,9 @@ cartao.innerHTML = `
                 <p>${resposta}</p>
         </div>
         </div>
-`
+`function viraCartao() {
+        respostaEstaVisivel = !respostaEstaVisivel
+        cartao.classList.toggle('active', respostaEstaVisivel)
+    }
+    cartao.addEventListener('click', viraCartao)
+    
